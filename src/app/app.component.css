@@ -1,0 +1,12 @@
+main > *{
+  display: block;
+  border-radius: 15px;
+  background-color: #dedede;
+  padding: 15px;
+  cursor: pointer;
+}
+
+main{
+  display: flex;
+  gap: 20px;
+}

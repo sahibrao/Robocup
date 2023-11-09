@@ -1,0 +1,7 @@
+robots (photos and videos of robots)
+about (Description of the approaches and information on scientific achievements)
+publications
+repos
+members
+previous (Previous participation in RoboCup)
+links (Links to the qualification materials (TDR Video) for the oncoming RoboCup)
