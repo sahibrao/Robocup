@@ -1,4 +1,4 @@
-main > *{
+main > * {
   display: block;
   border-radius: 15px;
   background-color: #dedede;
@@ -6,7 +6,13 @@ main > *{
   cursor: pointer;
 }
 
-main{
+main {
   display: flex;
   gap: 20px;
+}
+
+#main-img {
+  width: 300px;
+
+  background-size: cover;
 }
