@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -10,8 +11,7 @@ body {
   background-color: #eaeaea;
 }
 
-
-.tile{
+.tile {
   display: block;
   width: 100%;
   border-radius: 15px;
@@ -20,9 +20,11 @@ body {
   cursor: pointer;
   font-weight: bold;
   transition-duration: 0.6s;
+  transition: transform 0.3s ease;
 }
 
-.tile:hover{
+.tile:hover {
   background-color: #d0d0d0;
   transition-duration: 0.6s;
+  transform: scale(1.1);
 }

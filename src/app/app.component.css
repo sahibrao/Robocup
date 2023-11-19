@@ -20,4 +20,5 @@ main {
 #main-img {
   height: 100%;
   background-size: cover;
+  /* flex-grow: 1; */
 }
