@@ -1,5 +1,7 @@
 main {
   width: 100vw;
+  height: 100vh;
+
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -11,14 +13,34 @@ main {
   width: 40vw;
 }
 
+#row2 {
+  display: flex;
+  gap: 20px;
+  width: 40vw;
+
+  /* background-color: black; */
+}
+
+#publications {
+  flex-grow: 2;
+}
+
 .col {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
+#robots {
+  flex-grow: 1;
+  color: black;
+}
+
 #main-img {
-  height: 100%;
+  display: flex;
+  height: 350px;
+  width: 100%;
   background-size: cover;
+  background-position: top; /* Center the background image */
   /* flex-grow: 1; */
 }
