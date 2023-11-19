@@ -1,18 +1,23 @@
-main > * {
-  display: block;
-  border-radius: 15px;
-  background-color: #dedede;
-  padding: 15px;
-  cursor: pointer;
+main {
+  width: 100vw;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 
-main {
+.row {
   display: flex;
+  gap: 20px;
+  width: 40vw;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
 #main-img {
-  width: 300px;
-
+  height: 100%;
   background-size: cover;
 }

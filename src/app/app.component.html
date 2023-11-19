@@ -1,15 +1,32 @@
-
 <main>
-  <app-robots></app-robots>
-  <app-about></app-about>
-  <app-publications></app-publications>
-  <app-repos></app-repos>
-  <div id="main-img" style="background-image: url('assets/main.jpg')"></div>
-  <app-members></app-members>
-  <app-previous></app-previous>
-  <app-links></app-links>
-</main>
+  <div id="col1" class="col">
+    <div id="row1" class="row">
+      <app-robots class="tile"></app-robots>
+      <app-about class="tile"></app-about>
+    </div>
 
+    <div id="row2" class="row">
+      <app-publications class="tile"></app-publications>
+      <app-repos class="tile"></app-repos>
+    </div>
+
+    <div id="row3" class="row">
+      <app-members class="tile"></app-members>
+      <app-previous class="tile"></app-previous>
+    </div>
+  </div>
+
+
+  <div id="col2" class="col">
+    <div id="row4" class="row">
+      <app-links class="tile"></app-links>
+    </div>
+
+    <div id="row5" class="row">
+      <div id="main-img" class="tile" style="background-image: url('assets/main.jpg')"></div>
+    </div>
+  </div>
+</main>
 
 
 <div style="display: flex; margin-top: 100px">
