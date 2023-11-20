@@ -1,7 +1,7 @@
 main {
   width: 100vw;
   height: 100vh;
-
+  background-color: white;
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -11,12 +11,15 @@ main {
   display: flex;
   gap: 20px;
   width: 40vw;
+  /* max-height: 550px; */
 }
 
-#row2 {
+#row3 {
   display: flex;
   gap: 20px;
+  /* background-color: black; */
   width: 40vw;
+  flex-shrink: 4;
 
   /* background-color: black; */
 }
@@ -36,11 +39,31 @@ main {
   color: black;
 }
 
+#logo {
+  /* display: inline-flex; */
+  width: 100%;
+  /* border-radius: 15px; */
+  background-color: white;
+  padding: 20px;
+  cursor: pointer;
+  zoom: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
 #main-img {
   display: flex;
-  height: 350px;
+  height: 450px;
   width: 100%;
   background-size: cover;
   background-position: top; /* Center the background image */
+  transition: none;
   /* flex-grow: 1; */
+}
+
+#main-img:hover {
+  transform: none;
 }
