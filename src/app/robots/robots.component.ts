@@ -12,10 +12,6 @@ export class RobotsComponent {
   }
 
   openPopup() {
-    const dialogRef = this.dialog.open(RobotsPopUpComponent);
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
+    this.dialog.open(RobotsPopUpComponent);
   }
 }

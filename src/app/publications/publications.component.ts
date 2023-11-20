@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import {MatDialog} from "@angular/material/dialog";
+import {PublicationsPopUpComponent} from "./publications-pop-up/publications-pop-up.component";
 
 @Component({
   selector: 'app-publications',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./publications.component.css']
 })
 export class PublicationsComponent {
+  constructor(public dialog: MatDialog) {
+  }
 
+  openPopup() {
+    this.dialog.open(PublicationsPopUpComponent);
+  }
 }

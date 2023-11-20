@@ -1,0 +1,15 @@
+#logo {
+  /* display: inline-flex; */
+  width: 100px;
+  height: 100px;
+  clip-path: circle(50px at center);
+  /* border-radius: 15px; */
+  background-color: white;
+  padding: 20px;
+  cursor: pointer;
+  zoom: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}

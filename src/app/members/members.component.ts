@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {MatDialog} from "@angular/material/dialog";
 
 @Component({
   selector: 'app-members',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./members.component.css']
 })
 export class MembersComponent {
+  constructor(public dialog: MatDialog) {
+  }
 
+  openPopup() {
+    this.dialog.open(MembersComponent);
+  }
 }

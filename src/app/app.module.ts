@@ -16,6 +16,10 @@ import { LinksPopUpComponent } from './links/links-pop-up/links-pop-up.component
 import { PublicationsPopUpComponent } from './publications/publications-pop-up/publications-pop-up.component';
 import {MatDialogModule} from "@angular/material/dialog";
 import {MatButtonModule} from "@angular/material/button";
+import { AboutPopUpComponent } from './about/about-pop-up/about-pop-up.component';
+import { MembersPopUpComponent } from './members/members-pop-up/members-pop-up.component';
+import { PreviousPopUpComponent } from './previous/previous-pop-up/previous-pop-up.component';
+import { ReposPopUpComponent } from './repos/repos-pop-up/repos-pop-up.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +34,10 @@ import {MatButtonModule} from "@angular/material/button";
     RobotsPopUpComponent,
     LinksPopUpComponent,
     PublicationsPopUpComponent,
+    AboutPopUpComponent,
+    MembersPopUpComponent,
+    PreviousPopUpComponent,
+    ReposPopUpComponent,
   ],
   imports: [
     BrowserModule,
